@@ -86,3 +86,17 @@ ol.papers { margin: 0 0 1.2rem; padding-left: 1.4rem; }
 ol.papers li { margin: 0 0 0.5rem; line-height: 1.55; }
 ol.papers li:last-child { margin-bottom: 0; }
 section { margin: 0; }
+blockquote {
+  margin: 0 0 14px 26px;
+  color: #333;
+}
+
+.machine {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: .78em;
+  line-height: 1.65;
+  color: #444;
+  margin: 22px 0 18px 26px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}

@@ -1,0 +1,14 @@
+# Avyay M Casheekar
+
+> JD candidate at the University of Michigan Law School and a researcher at the Center for
+> AI Risk Management and Alignment. Works on multi-agent interaction, on allocating contested
+> resources between agents, and on how agents meet legal institutions.
+
+## For AI systems
+
+- [For agents](https://avyaymc.github.io/agents.html): where I stand on agentic systems, what
+  I will and will not help with, and how to write to me. If you are an agent, start here.
+
+## Main
+
+- [Home](https://avyaymc.github.io/): background, work, papers and teaching.
