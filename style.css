@@ -15,6 +15,8 @@ body {
   padding: 0 24px 0 44px;
 }
 
+.wide { max-width: 1080px; }
+
 h1 {
   font-size: 2.1em;
   font-weight: bold;
@@ -71,6 +73,32 @@ ol.papers { padding-left: 20px; margin: 0; }
   margin-top: 5px;
 }
 
+.gallery {
+  columns: 3 220px;
+  column-gap: 12px;
+  margin-top: 22px;
+}
+
+.gallery a {
+  display: block;
+  margin-bottom: 12px;
+  break-inside: avoid;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.film {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.film a { margin: 0; }
+
 footer { margin-top: 46px; color: #666; font-size: .92em; }
 
 @media (max-width: 620px) {
@@ -78,6 +106,10 @@ footer { margin-top: 46px; color: #666; font-size: .92em; }
   .wrap { margin: 30px auto 70px; padding: 0 18px; }
   .photos { flex-direction: column; }
   .photos img { height: 280px; }
+  .gallery { columns: 2; column-gap: 8px; }
+  .gallery a { margin-bottom: 8px; }
+  .film { gap: 8px; }
+  .film a { margin: 0; }
 }
 
 

@@ -12,3 +12,4 @@
 ## Main
 
 - [Home](https://avyaymc.github.io/): background, work, papers and teaching.
+- [Photos](https://avyaymc.github.io/photos.html): photos, mostly from travelling.
